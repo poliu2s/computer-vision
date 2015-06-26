@@ -2,7 +2,7 @@
 % Po Liu
 
 % Load the png
-I = imread('/Users/poliu/projects/computer-vision/img/CameraMan.png');
+I = imread('CameraMan.png');
 imshow(I);
 
 % Gaussian filter
