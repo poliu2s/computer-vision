@@ -14,7 +14,7 @@ Size = size(I);
 imgHeight = Size(1);
 imgWidth = Size(2);
 
-timeLapse = zeros(imgHeight, imgWidth, numFiles);
+timeLapse = uint16(zeros(imgHeight, imgWidth, numFiles));
 
 % Compose the time lapse images together
 for i = 1:numFiles
